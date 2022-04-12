@@ -314,8 +314,8 @@ svg {
   body {
     background-image: url("../assets/bg-pattern-1.svg"),
       url("../assets/bg-main-desktop.png");
-    background-size: 267px 400px, 1913px 2058px;
-    background-position: top -40px right, top -112px left -146px;
+    background-size: 312px 468px, 1913px 2058px;
+    background-position: top -40px right, top -312px left -300px;
   }
 
   /* Shared Styles */
