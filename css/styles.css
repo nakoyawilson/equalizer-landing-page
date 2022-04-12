@@ -213,7 +213,7 @@ svg {
 
 /* Media Queries */
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 564px) {
   /* General Styles */
 
   body {
@@ -260,6 +260,7 @@ svg {
     width: min(90.625%, 69.6rem);
     margin: 24.9rem auto 0;
     padding-top: 60rem;
+    background-position: top -40px left 336px;
   }
 
   .cta-wrapper::before {
@@ -276,7 +277,7 @@ svg {
     position: absolute;
     top: 15rem;
     right: 5.8rem;
-    width: 399px;
+    width: 39.9rem;
   }
 
   /* Footer */
@@ -304,5 +305,108 @@ svg {
     position: absolute;
     right: 0;
     bottom: 2.9rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* General Styles */
+
+  body {
+    background-image: url("../assets/bg-pattern-1.svg"),
+      url("../assets/bg-main-desktop.png");
+    background-size: 267px 400px, 1913px 2058px;
+    background-position: top -40px right, top -112px left -146px;
+  }
+
+  /* Shared Styles */
+  .container {
+    width: min(77.08333%, 111rem);
+  }
+
+  /* Hero */
+
+  .hero {
+    margin: 12.7rem auto 0;
+  }
+
+  .main-heading {
+    font-size: 8.8rem;
+    line-height: 8.8rem;
+    letter-spacing: -1px;
+    width: min(100%, 101.5rem);
+  }
+
+  .hero .paragraph {
+    font-size: 2rem;
+    line-height: 3.4rem;
+    margin-top: 4rem;
+    width: min(100%, 82.5rem);
+  }
+
+  /* Call to Action */
+
+  .cta-wrapper {
+    width: min(77.08333%, 111rem);
+    margin: 32.1rem auto 0;
+    background-size: 31.2rem 46.8rem;
+  }
+
+  .cta-wrapper::before {
+    width: 31.2rem;
+    height: 64.2rem;
+    top: -21.3rem;
+    left: 10.2rem;
+  }
+
+  .cta {
+    padding: 5.8rem 5.9rem 4.8rem 5.4rem;
+    position: absolute;
+    top: 9rem;
+    right: 9.5rem;
+    width: 44.6rem;
+  }
+
+  .cta .subheading {
+    font-size: 4rem;
+    line-height: 5.2rem;
+  }
+
+  .cta .paragraph {
+    font-size: 2rem;
+    line-height: 3.4rem;
+    margin-top: 2.2rem;
+  }
+
+  .cta .pricing {
+    margin-top: 3.9rem;
+  }
+
+  .cta-btn-container {
+    margin-top: 4.6rem;
+  }
+
+  .cta-btn {
+    width: 100%;
+  }
+
+  /* Footer */
+
+  .footer {
+    margin-top: 20.2rem;
+    margin-bottom: 9.1rem;
+    display: flex;
+  }
+
+  .footer .logo {
+    margin-top: 0;
+  }
+
+  .contact-container {
+    margin-left: 137.76px;
+  }
+
+  .social-icons {
+    position: static;
+    margin-left: auto;
   }
 }
