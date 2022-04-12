@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+
+:root {
+  --font: "IBM Plex Sans", sans-serif;
+  --blue: rgb(102, 226, 220);
+  --orange-red: rgb(250, 116, 83);
+  --yellow-orange: rgb(255, 185, 100);
+  --white: rgb(252, 250, 249);
+  --black: rgb(25, 24, 38);
+}
+
+/* CSS Reset */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--white);
+  background-image: url("../assets/bg-main-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: top -10.4rem right -6.54rem;
+  color: var(--black);
+  font-family: var(--font);
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img,
+svg {
+  display: block;
+}
+
+/* Shared Styles */
+.container {
+  width: min(87.2%, 32.7rem);
+}
+
+.header,
+.footer {
+  margin-inline: auto;
+}
+
+.logo {
+  height: 3.2rem;
+}
+
+/* Header */
+
+.header .logo {
+  margin-top: 4rem;
+}
+
+/* Main */
+
+.hero {
+  margin: 6.4rem auto 0;
+}
+
+.main-heading {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  letter-spacing: -0.454545px;
+}
+
+.hero .paragraph {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin-top: 2rem;
+}
+
+/* Call to Action */
+
+.cta-wrapper {
+  background: var(--black);
+  background-image: url("../assets/bg-pattern-2.svg");
+  background-repeat: no-repeat;
+  background-size: 74.6667% 420px;
+  background-position: top center;
+  border-radius: 12px;
+  padding-top: 38rem;
+  margin-top: 16.6rem;
+  position: relative;
+}
+
+.cta-wrapper::before {
+  content: "";
+  width: 208.97px;
+  height: 430px;
+  background-image: url("../assets/illustration-app.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -9.8rem;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+}
+
+.cta {
+  background-color: var(--orange-red);
+  color: var(--white);
+  border-radius: 12px;
+  padding: 4.8rem 3.7rem 4.8rem 3.6rem;
+}
+
+.cta .subheading {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4rem;
+}
+
+.cta .paragraph {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin-top: 1.2rem;
+}
+
+.cta .pricing {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: -0.2px;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 3.6rem;
+}
+
+.pricing .cost {
+  font-weight: 700;
+  font-size: 6.5rem;
+  line-height: 5.2rem;
+}
+
+.cta-btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-top: 3.2rem;
+}
+
+.cta-btn {
+  border-radius: 12px;
+  padding: 1.5rem 1.5rem 1.4rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: -0.18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 0.8rem;
+}
+
+.cta-btn.apple {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.cta-btn.android {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+/* Footer */
+
+.footer .logo {
+  margin-top: 6.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.footer-content {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+.email-address {
+  font-weight: 700;
+  color: var(--black);
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 6.4rem;
+  margin-bottom: 8rem;
+}
