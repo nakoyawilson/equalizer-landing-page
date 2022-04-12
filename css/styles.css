@@ -409,4 +409,17 @@ svg {
     position: static;
     margin-left: auto;
   }
+
+  .cta-btn.apple:hover {
+    background-color: var(--blue);
+  }
+
+  .cta-btn.android:hover {
+    background-color: var(--yellow-orange);
+  }
+
+  .social-icon-wrapper:hover .social-icon {
+    fill: var(--orange-red);
+    cursor: pointer;
+  }
 }
