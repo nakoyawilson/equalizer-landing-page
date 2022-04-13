@@ -359,7 +359,8 @@ svg {
   }
 
   .cta {
-    padding: 5.8rem 5.9rem 4.8rem 5.4rem;
+    /* padding: 5.8rem 5.9rem 4.8rem 5.4rem; */
+    padding: 5.8rem 5.4rem 4.8rem 5.4rem;
     position: absolute;
     top: 9rem;
     right: 9.5rem;
