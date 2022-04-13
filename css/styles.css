@@ -29,8 +29,8 @@ body {
   background-color: var(--white);
   background-image: url("../assets/bg-main-mobile.png");
   background-repeat: no-repeat;
-  background-size: 582px 780px;
-  background-position: top -200px right -220px;
+  background-size: 58.2rem 78rem;
+  background-position: top -20rem right -22rem;
   color: var(--black);
   font-family: var(--font);
   font-weight: 400;
@@ -219,8 +219,8 @@ svg {
   body {
     background-image: url("../assets/bg-pattern-1.svg"),
       url("../assets/bg-main-tablet.png");
-    background-size: 267px 400px, 1283px 1108px;
-    background-position: top -32px right -36px, top -275px right -100px;
+    background-size: 26.7rem 40rem, 128.3rem 110.8rem;
+    background-position: top -3.2rem right -3.6rem, top -27.5rem right -10rem;
   }
 
   /* Shared Styles */
@@ -260,7 +260,7 @@ svg {
     width: min(90.625%, 69.6rem);
     margin: 24.9rem auto 0;
     padding-top: 60rem;
-    background-position: top -40px left 336px;
+    background-position: top -4rem left 33.6rem;
   }
 
   .cta-wrapper::before {
@@ -308,14 +308,14 @@ svg {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1000px) {
   /* General Styles */
 
   body {
     background-image: url("../assets/bg-pattern-1.svg"),
       url("../assets/bg-main-desktop.png");
-    background-size: 312px 468px, 1913px 2058px;
-    background-position: top -40px right, top -262px left -300px;
+    background-size: 31.2rem 46.8rem, 191.3rem 205.8rem;
+    background-position: top -4rem right, top -26.2rem left -30rem;
   }
 
   /* Shared Styles */
@@ -359,8 +359,7 @@ svg {
   }
 
   .cta {
-    /* padding: 5.8rem 5.9rem 4.8rem 5.4rem; */
-    padding: 5.8rem 5.4rem 4.8rem 5.4rem;
+    padding: 5.8rem 5.9rem 4.8rem 5.4rem;
     position: absolute;
     top: 9rem;
     right: 9.5rem;
@@ -403,7 +402,7 @@ svg {
   }
 
   .contact-container {
-    margin-left: 137.76px;
+    margin-left: 13.8rem;
   }
 
   .social-icons {
